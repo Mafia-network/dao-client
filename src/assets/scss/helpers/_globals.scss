@@ -1,0 +1,22 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.app {
+  padding-top: 100px;
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+  color: white;
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 300px;
+  }
+
+  &-content {
+    padding-bottom: 200px;
+  }
+}

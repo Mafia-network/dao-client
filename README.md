@@ -1,4 +1,4 @@
-# staking-client
+# DAO Client
 
 ## Project setup
 ```
